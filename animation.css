@@ -1,0 +1,46 @@
+*{
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+ 
+}
+
+.continer{
+    width: 100px;
+    height: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    /* padding: 20px; */
+    margin: 50px auto ;
+    
+}
+
+.box{
+    height: 500px;
+    width: 500px;
+    border: 1px solid;
+}
+
+i{
+    animation-name: car;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes car{
+0%{
+  transform: translate(0px,-60px);
+}
+25%{
+  transform: translate(800px,-60px);
+}
+50%{
+  transform: translate(800px,450px);
+}
+75%{
+  transform: translate(0px,4500px);
+}
+100%{
+  transform: translate(0px,-60px);
+}
+}

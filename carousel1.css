@@ -1,0 +1,30 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  background-color: gray;
+}
+
+section{
+  height: 360px;
+  width: 227px;
+  border: 1px solid;
+  margin: 20px;
+  background-color: pink;
+}
+
+p{
+  padding: 50px;
+  text-align: center;
+ } 
+ 
+ .container::-webkit-scrollbar{
+  display: none;
+}
+

@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(13, 13, 13);
+  }
+  @font-face {
+    font-family: venom;
+    src: url("Poppins/Poppins-Light.ttf");
+  }
+  
+  .webpage {
+    width: 100%;
+    background-color:black;
+  }
+  
+  nav {
+    height: 11vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.343);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 70px;
+    position: sticky;
+    top: 0px;
+  }
+  nav .logo {
+    height: 90%;
+    width: 10%;
+    background-image: url("venom\ logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: white;
+  }
+  .logo:hover {
+    cursor: pointer;
+  }
+  nav .navItems li:hover {
+    cursor: pointer;
+  }
+  nav .navItems {
+    list-style-type: none;
+    height: 90%;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+  }
+  
+  nav .contact {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 90%;
+    width: 24%;
+    justify-content: space-evenly;
+  }
+  
+  nav .contact li {
+    font-size: 20px;
+  }
+  
+  nav ul li img {
+    height: 13px;
+    /* background-color: white; */
+  }
+
+   .container{
+    height:90vh ;
+    width:100%;
+    color:gray;
+    font-size: 36px;
+    font-weight: 400;
+  }
+  span{
+    color: white;
+  }
+  .class1{
+    background-color: rgb(17, 169, 125);
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .class2{
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .button2:hover {
+   border-color: green;
+  } 
+
+  /* .left{
+    width: 50%;
+  } 
+
+  

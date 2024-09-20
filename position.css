@@ -1,0 +1,41 @@
+ /* section{
+   height: 400px; ;
+   width: 400px;
+   position: relative; 
+   left: 500px;
+   top: 200px; 
+   border: 1px solid;  
+   margin: 0 auto;
+   position:  relative;
+   background: linear-gradient(yellow,blue,green);
+} */
+
+ /* .child{
+    height: 150px; ;
+    width: 150px;
+    background: red;
+     position:absolute; 
+    left: 150px; 
+    border-radius: 50%;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+ */
+ 
+div{
+    height: 100px; ;
+    width: 800px;
+
+}
+.div1{
+    background-color: red;
+}
+.div2{
+    background-color:green;
+}
+.child{
+    background-color:cornflowerblue;
+    position: sticky;
+    top: 0;
+
+}

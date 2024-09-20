@@ -1,0 +1,57 @@
+   /* task1 */
+   nav{        
+    height: 10vh;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgreen;
+}
+
+nav dl{
+    height: 100%;
+    width: 65%;
+    list-style-type:none;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+nav dl dt{
+    font-size: 25px;
+    color: beige;
+    padding: 8px 20PX;
+    background-color:darkgreen;
+    border-radius: 5px;
+}
+
+
+ /* task2 */
+#nav1{
+    height: 10vh;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    background-color: brown;
+}
+
+#nav1 dl{
+    height: 100%;
+    width: 65%;
+    list-style-type:none;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#nav1 dl dt{
+    font-size: 25px;
+    color: beige;
+    padding: 8px 20PX;
+    background-color:brown;
+    border-radius: 5px;
+} 
+

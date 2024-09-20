@@ -1,0 +1,16 @@
+section{height: 300px;
+    width: 50%;
+
+    background-color: blue;
+}
+h1{
+    height: 300px;
+    width: 50%;
+    background-color: brown;
+
+}
+span{
+    height: 300px;
+    width: 50%;
+    background-color: chartreuse;
+}

@@ -1,0 +1,69 @@
+section{
+    height: 300px;
+    width: 300px;
+    border: 3px solid;
+
+    /*2 property of background*/
+        /*background:linear-gradient(to right bottom, red,blue,yellow,green);/* it is use for multiple color */
+    /* background-color: blueviolet;  it is use for only single color*/
+
+     background: conic-gradient(red 0deg 90deg,green 90deg 270deg,blue,yellow);
+     border-radius: 5%;
+    }
+    #sec1{
+        height: 300px;
+        width: 300px;
+        border: 3px solid;
+
+        background: conic-gradient(red 0deg 45deg,green 45deg 180deg,blue 180deg 225deg,yellow 225deg 360deg);
+     border-radius: 5%;
+    }
+    #sec2{
+        height: 300px;
+        width: 300px;
+        border: 3px solid;
+        
+        background: conic-gradient(red 0deg 135deg,green 135deg 225deg,blue 225deg 360deg);
+     border-radius: 5%;
+    }
+    #sec3{
+        height: 300px;
+        width: 300px;
+        border: 3px solid;
+        
+        background: conic-gradient(red 0deg 90deg,green 90deg 180deg,blue 180deg 225deg,yellow 225deg 360deg);
+     border-radius: 5%;
+    }
+    #sec4{
+        height: 300px;
+        width: 300px;
+        border: 3px solid;
+        
+        background: conic-gradient(red 0deg 45deg,green 45deg 135deg,blue 135deg 180deg,yellow 180deg 225deg,pink 225deg 315deg,red 315deg 360deg);
+     border-radius: 5%;
+    }
+    #sec5{
+        height: 300px;
+        width: 300px;
+        border: 3px solid;
+        
+        background: conic-gradient(red 0deg 45deg,green 45deg 90deg,blue 90deg 270deg,yellow 270deg 315deg,red 315deg 360deg);
+     border-radius: 5%;
+    }
+    #sec6{
+        height: 300px;
+        width: 300px;
+        border: 3px solid;
+        
+        background: conic-gradient(red 0deg 90deg,green 90deg 180deg,blue 180deg 225deg,yellow 225deg 270deg,pink 270deg 315deg,orange 315deg 360deg);
+     border-radius: 5%;
+    }
+    #sec7{
+        background: radial-gradient(red,yellow,pink,blue,green);
+    }
+    #sec8{
+        background-image:url(macaw.jpg) ;
+        background-position: centre ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }

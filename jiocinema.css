@@ -1,0 +1,179 @@
+body {
+    background-color: rgb(13, 14, 16);
+    overflow: hidden;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  nav {
+    height: 72px;
+    width: 100%;
+    color: rgb(28, 21, 21);
+    display: flex;
+    background-color: rgb(44, 20, 11);
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    width: 45%;
+    list-style: none;
+    flex: end;
+    position: relative;
+    left: 20px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav ul li:first-child {
+    font-size: 30px;
+    font-weight: 900;
+  }
+  #bui {
+    height: 35px;
+    border-radius: 20px;
+  }
+  #bui:hover {
+    cursor: pointer;
+  }
+  nav ul li:nth-child(4) {
+    border-bottom: 3px solid rgb(237, 32, 186);
+  }
+  nav ul li {
+    color: white;
+  }
+  nav ul li i {
+    padding: auto;
+    border-radius: 50%;
+    width: 30px;
+    height: 20px;
+    margin-left: 10px;
+  }
+  nav ul li:nth-child(3) {
+    height: 30px;
+    width: 130px;
+    border: 2px solid rgb(0, 255, 89);
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 6px;
+    padding-right: 3px;
+    color: rgb(0, 255, 55);
+    font-size: 13px;
+  }
+  nav ul li select {
+    background-color: rgb(44, 20, 11);
+    border: none;
+    color: white;
+  }
+  nav ul li:hover {
+    cursor: pointer;
+  }
+  nav ul div {
+    display: flex;
+    align-items: center;
+  }
+  
+  div ul li:last-child {
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+  }
+  .searchbar {
+    align-content: center;
+    margin-right: 50px;
+    padding-top: 0;
+    padding-left: 0;
+  }
+  .searchbar input {
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.1);
+    height: 40px;
+    border-radius: 70px;
+    border: none;
+    width: 250px;
+    padding-left: 50px;
+  }
+  
+  .searchbar input[type="text"] {
+    background-image: url("icons8-search-50.png"), url("icons8-microphone-50.png");
+    background-position: 20px 10px, 260px 10px;
+    outline: none;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+  }
+  .searchbar img {
+    background-color: gray;
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+    position: relative;
+    top: 15px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: larger;
+  }
+  
+  .searchbar img:hover {
+    cursor: pointer;
+  }
+  
+  nav1 {
+    height: 72px;
+    width: 100%;
+    color: rgb(28, 21, 21);
+    display: flex;
+    background-color: rgb(49, 21, 9);
+    border-top: 1px solid chocolate;
+    justify-content: space-between;
+  }
+  nav1 ul {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    flex: end;
+    position: relative;
+    left: 20px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav1 ul li {
+    padding: 10px;
+    color: white;
+    font-size: 13px;
+    background-color: rgb(89, 66, 58);
+    border: 1px solid rgb(89, 66, 58);
+    border-radius: 20px;
+  }
+  nav1 ul li:first-child {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  nav1 ul li:hover {
+    cursor: pointer;
+  }
+  
+  .cartoonbox {
+    height: 100px;
+    width: 150px;
+    display: flex;
+    border: 1px solid;
+    border-radius: 10px;
+  }
+  div section {
+    display: flex;
+    position: relative;
+    top: 20px;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  div section i {
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    height: 320px;
+    width: 200px;
+  }
+  

@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 50vh;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    overflow: auto;
+    padding: 0px 20px;
+}
+
+.container img{
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.container::-webkit-scrollbar{
+    display: none;
+}
